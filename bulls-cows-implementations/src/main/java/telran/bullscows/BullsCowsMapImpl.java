@@ -12,7 +12,6 @@ public class BullsCowsMapImpl implements BullsCowsService {
 	public long createNewGame() {
 		Game game = new Game();
 		games.put(game.id, game);
-		System.out.println(game.getSequence());
 		return game.id;
 		
 	}
